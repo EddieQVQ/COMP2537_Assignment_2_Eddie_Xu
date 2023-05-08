@@ -1,0 +1,26 @@
+<%- include("templates/header") %>
+
+<div class="memberbox">
+  <h2 class="text-center">Welcome to Apex Legends, <%= username %>!</h2>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <img class="img-fluid" src="wraith.gif">
+      </div>
+      <div class="col-sm">
+        <img class="img-fluid" src="revenant.gif">
+      </div>
+      <div class="col-sm">
+        <img class="img-fluid" src="pathfinder.gif">
+      </div>
+    </div>
+  </div>
+  <br>
+  <!-- <a href='/logout'> Sign out</a> -->
+  <div class="col-md-12 text-center">
+  <a href='/'><button type="button" class="btn btn-primary">Sign Out</button></a>
+  </div>
+</div>
+
+<%- include("templates/footer") %>
